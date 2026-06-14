@@ -25,5 +25,26 @@ namespace SDClub.Loader
 #else
         public const bool IsIL2CPP = false;
 #endif
+
+#if UNITY_WEBGL && !UNITY_EDITOR
+        public const bool IsWebGL = true;
+#else
+        public const bool IsWebGL = false;
+#endif
+
+        /// <summary>
+        /// 是否为微信小游戏平台（WebGL 运行时）
+        /// </summary>
+        public static bool IsWeChat
+        {
+            get
+            {
+#if UNITY_WEBGL && !UNITY_EDITOR
+                return true;
+#else
+                return false;
+#endif
+            }
+        }
     }
 }

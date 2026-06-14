@@ -51,6 +51,7 @@
     <Compile Include="Assets\Scripts\Core\Entity\IScene.cs" />
     <Compile Include="Assets\Scripts\Core\World\Module\EventSystem\EventSystem.cs" />
     <Compile Include="Assets\Scripts\Core\Network\ProcessInnerSender.cs" />
+    <Compile Include="Assets\Scripts\Core\Network\WxWChannel.cs" />
     <Compile Include="Assets\Scripts\Core\Entity\EntitySystemAttribute.cs" />
     <Compile Include="Assets\Scripts\Core\Helper\ListComponent.cs" />
     <Compile Include="Assets\Scripts\Core\World\Module\EventSystem\InvokeAttribute.cs" />
@@ -98,6 +99,7 @@
     <Compile Include="Assets\Scripts\Core\World\Module\Code\CodeTypes.cs" />
     <Compile Include="Assets\Scripts\Core\Network\TChannel.cs" />
     <Compile Include="Assets\Scripts\Core\Network\TService.cs" />
+    <Compile Include="Assets\Scripts\Core\Network\WxWService.cs" />
     <Compile Include="Assets\Scripts\Core\Entity\IDestroySystem.cs" />
     <Compile Include="Assets\Scripts\Core\Fiber\Fiber.cs" />
     <Compile Include="Assets\Scripts\Core\World\Module\Timer\ATimer.cs" />
