@@ -41,7 +41,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="Assets\Scripts\ThirdParty\YooAsset-3.0.2-beta\Assets\YooAsset\package.json" />
+    <None Include="Assets\Scripts\ThirdParty\YooAsset-3.0.2-beta\Packages\manifest.json" />
     <None Include="Assets\unity-mcp\package.json" />
+    <None Include="Assets\Scripts\ThirdParty\YooAsset-3.0.2-beta\Packages\packages-lock.json" />
     <Reference Include="UnityEngine">
       <HintPath>D:\TuanJie\2022.3.62t8\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

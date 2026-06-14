@@ -47,11 +47,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\HotfixView\Client\UI\ToggleSystem.cs" />
     <Compile Include="Assets\Scripts\HotfixView\Client\UnitViewSystem.cs" />
-    <Compile Include="Assets\Scripts\HotfixView\Client\CameraSystem.cs" />
     <Compile Include="Assets\Scripts\HotfixView\Client\UI\SliderSystem.cs" />
     <Compile Include="Assets\Scripts\HotfixView\Client\UI\InputSystem.cs" />
-    <Compile Include="Assets\Scripts\HotfixView\Client\UI\UIEventSystem.cs" />
     <Compile Include="Assets\Scripts\HotfixView\Client\UI\ButtonSystem.cs" />
+    <Compile Include="Assets\Scripts\HotfixView\Client\CameraSystem.cs" />
+    <Compile Include="Assets\Scripts\HotfixView\Client\UI\UIEventSystem.cs" />
     <None Include="Assets\Scripts\HotfixView\SDClub.HotfixView.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>D:\TuanJie\2022.3.62t8\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

@@ -45,9 +45,9 @@
     <Analyzer Include="D:\TuanJie\2022.3.62t8\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Plugins\UniTask\Editor\UniTaskTrackerTreeView.cs" />
     <Compile Include="Assets\Plugins\UniTask\Editor\UniTaskTrackerWindow.cs" />
     <Compile Include="Assets\Plugins\UniTask\Editor\SplitterGUILayout.cs" />
-    <Compile Include="Assets\Plugins\UniTask\Editor\UniTaskTrackerTreeView.cs" />
     <None Include="Assets\Plugins\UniTask\Editor\UniTask.Editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>D:\TuanJie\2022.3.62t8\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
