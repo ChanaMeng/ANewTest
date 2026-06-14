@@ -33,9 +33,18 @@ namespace SDClub.Loader
 #endif
 
         /// <summary>
-        /// 是否为微信小游戏平台（WebGL 运行时）
+        /// 是否为微信小游戏平台（使用 WEIXINMINIGAME 宏精确检测）
         /// </summary>
-        public static bool IsWeChat
+#if WEIXINMINIGAME && !UNITY_EDITOR
+        public const bool IsWeChat = true;
+#else
+        public const bool IsWeChat = false;
+#endif
+
+        /// <summary>
+        /// 是否为 WebGL 平台（含微信小游戏）
+        /// </summary>
+        public static bool IsWeChatWebGL
         {
             get
             {

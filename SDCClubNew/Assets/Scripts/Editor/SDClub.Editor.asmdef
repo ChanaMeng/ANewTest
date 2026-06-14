@@ -1,7 +1,7 @@
 {
     "name": "SDClub.Editor",
     "rootNamespace": "SDClub.Editor",
-    "references": ["SDClub.Core", "SDClub.Model", "SDClub.ModelView", "SDClub.Hotfix", "SDClub.HotfixView", "SDClub.UIFrameWork"],
+    "references": ["SDClub.Core", "SDClub.Model", "SDClub.ModelView", "SDClub.Hotfix", "SDClub.HotfixView", "SDClub.UIFrameWork", "YooAsset", "YooAsset.Editor"],
     "includePlatforms": ["Editor"],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

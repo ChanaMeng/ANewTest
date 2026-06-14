@@ -45,13 +45,23 @@
     <Analyzer Include="D:\TuanJie\2022.3.62t8\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Hotfix\Client\Module\Message\HeartbeatSystem.cs" />
+    <Compile Include="Assets\Scripts\Hotfix\Client\State\GameStateMachineSystem.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Client\Module\Message\MessageDispatchSystem.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Client\EntryEvent1_Init.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Client\EntryEvent3_InitClient.cs" />
+    <Compile Include="Assets\Scripts\Hotfix\Client\Scene\SceneManagerSystem.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Client\Module\Message\SessionSystem.cs" />
+    <Compile Include="Assets\Scripts\Hotfix\Client\Module\Message\GameMessageHandlers.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Client\EntryEvent2_InitManagers.cs" />
+    <Compile Include="Assets\Scripts\Hotfix\Client\Module\Message\LoginHandler.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Client\Module\Message\NetComponentSystem.cs" />
+    <Compile Include="Assets\Scripts\Hotfix\Client\2D\SpriteAnimationSystem.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Client\FiberInit_Main.cs" />
+    <Compile Include="Assets\Scripts\Hotfix\Client\Config\ConfigSystem.cs" />
+    <Compile Include="Assets\Scripts\Hotfix\Client\Module\Message\ChatMessageHandler.cs" />
+    <Compile Include="Assets\Scripts\Hotfix\Client\2D\TouchInputSystem.cs" />
+    <Compile Include="Assets\Scripts\Hotfix\Client\Save\SaveSystem.cs" />
     <None Include="Assets\Scripts\Hotfix\SDClub.Hotfix.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>D:\TuanJie\2022.3.62t8\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

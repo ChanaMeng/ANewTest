@@ -48,10 +48,15 @@
     <Compile Include="Assets\Scripts\Model\Client\Module\Message\MessageSessionDispatcher.cs" />
     <Compile Include="Assets\Scripts\Model\Client\Module\Message\MessageSessionHandler.cs" />
     <Compile Include="Assets\Scripts\Model\Client\Module\Message\IMessage.cs" />
+    <Compile Include="Assets\Scripts\Model\Client\Module\Message\Messages\SystemMessages.cs" />
     <Compile Include="Assets\Scripts\Model\Client\Module\Message\Session.cs" />
+    <Compile Include="Assets\Scripts\Model\Client\Module\Message\Messages\ChatMessages.cs" />
     <Compile Include="Assets\Scripts\Model\Client\EntryEvent.cs" />
+    <Compile Include="Assets\Scripts\Model\Client\Module\Message\Opcode.cs" />
     <Compile Include="Assets\Scripts\Model\Client\Entry.cs" />
     <Compile Include="Assets\Scripts\Model\Client\Module\Message\NetComponent.cs" />
+    <Compile Include="Assets\Scripts\Model\Client\Module\Message\MessageAttribute.cs" />
+    <Compile Include="Assets\Scripts\Model\Client\Module\Message\Messages\GameMessages.cs" />
     <Compile Include="Assets\Scripts\Model\Client\ConstFiberId.cs" />
     <Compile Include="Assets\Scripts\Model\Client\Helper\SerializeHelper.cs" />
     <None Include="Assets\Scripts\Model\SDClub.Model.asmdef" />

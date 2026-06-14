@@ -50,6 +50,8 @@
     <Compile Include="Assets\Scripts\HotfixView\Client\UI\SliderSystem.cs" />
     <Compile Include="Assets\Scripts\HotfixView\Client\UI\InputSystem.cs" />
     <Compile Include="Assets\Scripts\HotfixView\Client\UI\ButtonSystem.cs" />
+    <Compile Include="Assets\Scripts\HotfixView\Client\Pool\GameObjectPoolSystem.cs" />
+    <Compile Include="Assets\Scripts\HotfixView\Client\2D\JoystickViewSystem.cs" />
     <Compile Include="Assets\Scripts\HotfixView\Client\CameraSystem.cs" />
     <Compile Include="Assets\Scripts\HotfixView\Client\UI\UIEventSystem.cs" />
     <None Include="Assets\Scripts\HotfixView\SDClub.HotfixView.asmdef" />

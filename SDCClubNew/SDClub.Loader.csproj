@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Loader\MonoBehaviour\GlobalComponent.cs" />
+    <Compile Include="Assets\Scripts\Loader\YooAsset\YooAssetComponent.cs" />
     <Compile Include="Assets\Scripts\Loader\UnityLogger.cs" />
     <Compile Include="Assets\Scripts\Loader\CodeLoader.cs" />
     <Compile Include="Assets\Scripts\Loader\Entry.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="Assets\Scripts\Loader\Options.cs" />
     <Compile Include="Assets\Scripts\Loader\YooAsset\YooAssetHelper.cs" />
     <Compile Include="Assets\Scripts\Loader\TimeInfo.cs" />
+    <Compile Include="Assets\Scripts\Loader\YooAsset\YooAssetConfig.cs" />
     <Compile Include="Assets\Scripts\Loader\MonoBehaviour\Init.cs" />
     <None Include="Assets\Scripts\Loader\SDClub.Loader.asmdef" />
     <Reference Include="UnityEngine">
@@ -711,6 +713,10 @@
     <ProjectReference Include="UniTask.csproj">
       <Project>{bb0e0d9b-21e0-6e8a-50dc-d9b32f5ff775}</Project>
       <Name>UniTask</Name>
+    </ProjectReference>
+    <ProjectReference Include="YooAsset.csproj">
+      <Project>{d1105811-fb2e-4b4c-e46b-01f628735bfc}</Project>
+      <Name>YooAsset</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

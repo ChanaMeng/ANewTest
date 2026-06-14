@@ -1,7 +1,7 @@
 {
     "name": "SDClub.Loader",
     "rootNamespace": "SDClub.Loader",
-    "references": ["SDClub.Core", "SDClub.UIFrameWork", "UniTask"],
+    "references": ["SDClub.Core", "SDClub.UIFrameWork", "UniTask", "YooAsset"],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
