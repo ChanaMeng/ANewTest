@@ -35,3 +35,6 @@ Thumbs.db
 
 # Crashlytics
 crashlytics-build.properties
+
+# Codely bridge config
+SDCClubNew/.com-unity-codely.json
