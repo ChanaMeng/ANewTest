@@ -1,0 +1,14 @@
+{
+    "name": "SDClub.HotfixView",
+    "rootNamespace": "SDClub.HotfixView",
+    "references": ["SDClub.Core", "SDClub.Model", "SDClub.ModelView", "SDClub.Hotfix", "SDClub.UIFrameWork", "UniTask"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

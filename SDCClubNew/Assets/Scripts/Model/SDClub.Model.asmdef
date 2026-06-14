@@ -1,0 +1,14 @@
+{
+    "name": "SDClub.Model",
+    "rootNamespace": "SDClub.Model",
+    "references": ["SDClub.Core"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

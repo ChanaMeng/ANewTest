@@ -1,0 +1,14 @@
+{
+    "name": "SDClub.Editor",
+    "rootNamespace": "SDClub.Editor",
+    "references": ["SDClub.Core", "SDClub.Model", "SDClub.ModelView", "SDClub.Hotfix", "SDClub.HotfixView", "SDClub.UIFrameWork"],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
