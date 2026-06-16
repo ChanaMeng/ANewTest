@@ -9,6 +9,13 @@
       },
       "url": "https://packages.tuanjie.cn"
     },
+    "com.qq.weixin.minigame": {
+      "version": "https://gitee.com/wechat-minigame/minigame-tuanjie-transform-sdk.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "effa018064c81a8377408d0d5b0ddbd7c0fa32f0"
+    },
     "com.unity.2d.animation": {
       "version": "9.2.0",
       "depth": 1,

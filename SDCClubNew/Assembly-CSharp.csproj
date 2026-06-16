@@ -43,6 +43,7 @@
   <ItemGroup>
     <None Include="Assets\Scripts\ThirdParty\YooAsset-3.0.2-beta\Assets\YooAsset\package.json" />
     <None Include="Assets\Scripts\ThirdParty\YooAsset-3.0.2-beta\Packages\manifest.json" />
+    <None Include="Assets\WX-WASM-SDK-V2\Runtime\Plugins\link.xml" />
     <None Include="Assets\unity-mcp\package.json" />
     <None Include="Assets\Scripts\ThirdParty\YooAsset-3.0.2-beta\Packages\packages-lock.json" />
     <Reference Include="UnityEngine">
