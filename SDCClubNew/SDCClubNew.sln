@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDClub.Model", "SDClub.Mode
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.Addressables", "UniTask.Addressables.csproj", "{edba0769-9480-2afc-dfe3-996eebed3a58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YooAsset.MiniGame", "YooAsset.MiniGame.csproj", "{48a76a71-055e-0dba-85f9-409cbe189661}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDClub.Loader", "SDClub.Loader.csproj", "{c448101f-0659-01bf-3d7a-7bf840ccfb73}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.TextMeshPro", "UniTask.TextMeshPro.csproj", "{80539c42-3f22-adcf-955d-393775ab85fe}"
@@ -72,6 +74,8 @@ Global
 		{5bacda1f-ca61-b19c-671b-66efe9918745}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{edba0769-9480-2afc-dfe3-996eebed3a58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{edba0769-9480-2afc-dfe3-996eebed3a58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48a76a71-055e-0dba-85f9-409cbe189661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48a76a71-055e-0dba-85f9-409cbe189661}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c448101f-0659-01bf-3d7a-7bf840ccfb73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{c448101f-0659-01bf-3d7a-7bf840ccfb73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80539c42-3f22-adcf-955d-393775ab85fe}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

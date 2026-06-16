@@ -67,14 +67,12 @@ namespace SDClub.Loader
             options.EditorFileSystemParameters = fileSystemParams;
             return options;
 #elif WEIXINMINIGAME
-            // 微信小游戏：使用 WebPlayMode
+            // 微信小游戏：使用 WechatFileSystem（基于微信文件管理 API）
             var remoteService = new RemoteService(YooAssetConfig.GetPackageUrl(packageName));
-            var webServerParams = FileSystemParameters.CreateDefaultWebServerFileSystemParameters();
-            var webNetworkParams = FileSystemParameters.CreateDefaultWebNetworkFileSystemParameters(remoteService);
+            var fileSystemParams = WechatFileSystemCreater.CreateFileSystemParameters(remoteService);
 
             var options = new WebPlayModeOptions();
-            options.WebServerFileSystemParameters = webServerParams;
-            options.WebNetworkFileSystemParameters = webNetworkParams;
+            options.WebNetworkFileSystemParameters = fileSystemParams;
             return options;
 #else
             // 其他真机平台：离线模式

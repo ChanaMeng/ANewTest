@@ -20,7 +20,7 @@ MonoBehaviour:
     compressDataPackage: 0
     VideoUrl: 
     relativeDST: 
-    DST: 
+    DST: D:\TJWorkspace\SDCClubProject\SDCClubNew\
     StreamCDN: 
     bundleHashLength: 32
     bundlePathIdentifier: StreamingAssets;
@@ -70,6 +70,7 @@ MonoBehaviour:
     enableEmscriptenGLX: 0
     brotliMT: 1
     enableWasm2023: 0
+    enableRenderThread: 0
   CompressTexture:
     halfSize: 0
     useDXT5: 0
@@ -100,3 +101,14 @@ MonoBehaviour:
     Geometric_Shapes: 1
     Mathematical_Operators: 1
     CustomUnicode: 
+  MultiPackageMerge:
+    outputPath: 
+    devPluginId: 
+    packageConditions:
+    - condition: config.features?.preferThreads === true && canUseThread
+      packageSuffix: mt
+      packagePath: 
+    defaultPackagePath: 
+    commonDirectories: 
+    commonFiles: 
+    framework: unity
